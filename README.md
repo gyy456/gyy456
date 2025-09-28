@@ -6,5 +6,4 @@
 - ⚗️ Research internship Xiaomi Robot and @ [Shanghai AI Lab](https://www.shlab.org.cn)(Now).
 - ✨ Envisioning 3D/4D reconstruntion.
 - 📫 Reach me via [Mail](yygao7645@gmail.com).
-- ⚠️ Right now I'm looking for Phd 2026 Fall!!
 
