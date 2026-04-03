@@ -1,7 +1,7 @@
 ## Hi there 👋
 
-
-- 🎓 I'm a third-year Master's student @ [Northwestern Polytechnical University (NPU)](https://vision-intelligence.com.cn/people/).
+- 🎓 Incoming Ph.D. student (Fall 2026) at [The Hong Kong University of Science and Technology (HKUST)](https://www.ust.hk/), supervised by [Dan Xu](https://www.danxurgb.net/).
+- 🎓 I received my Master's degree from [Northwestern Polytechnical University (NPU)](https://vision-intelligence.com.cn/people/).
       under the mentorship of Prof. [Dingwen Zhang](https://vision-intelligence.com.cn/people/).
 - ⚗️ Research internship Xiaomi Robot and @ [Shanghai AI Lab](https://www.shlab.org.cn)(Now).
 - ✨ Envisioning 3D/4D reconstruntion.
