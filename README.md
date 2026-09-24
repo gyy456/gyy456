@@ -1,9 +1,9 @@
 ## Hi there 👋
 
-- 🎓 Incoming Ph.D. student (Fall 2026) at [The Hong Kong University of Science and Technology (HKUST)](https://www.ust.hk/), supervised by [Dan Xu](https://www.danxurgb.net/).
-- 🎓 I received my Master's degree from [Northwestern Polytechnical University (NPU)](https://vision-intelligence.com.cn/people/).
-      under the mentorship of Prof. [Dingwen Zhang](https://vision-intelligence.com.cn/pages/people.html).
+- 🎓 Ph.D. student (Fall 2026) in Computer Science and Engineering at [The Hong Kong University of Science and Technology (HKUST)](https://www.ust.hk/), supervised by [Dan Xu](https://www.danxurgb.net/).
+- 🎓 I received my Bachelor's and Master's degrees from [Northwestern Polytechnical University (NPU)](https://vision-intelligence.com.cn/people/).
+      Under the mentorship of Prof. [Dingwen Zhang](https://vision-intelligence.com.cn/pages/people.html).
 - ⚗️ Research internship [Shanghai AI Lab](https://www.shlab.org.cn) supervised by [Zhihang Zhong](https://zzh-tech.github.io/) and [Xiao Sun](https://jimmysuen.github.io/).
-- ✨ Envisioning 3D/4D reconstruntion and Sptail Intelligence.
+- ✨ I'm aiming to build scalable, cheap 3D/4D data pipelines for creating large-scale, realistic simulation environments, bridging the real-to-sim gap and advancing embodied intelligence.
 - 📫 Reach me via [Mail](yygao7645@gmail.com).
 
