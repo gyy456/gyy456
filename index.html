@@ -5,7 +5,7 @@
   <title>Yuanyuan Gao | 高源远</title>
   <meta name="author" content="Yuanyuan Gao">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Yuanyuan Gao — BRAIN Lab, NWPU. Spatial Intelligence, 3D Gaussian splatting, multimodal world models.">
+  <meta name="description" content="Yuanyuan Gao — Ph.D. student in Computer Science and Engineering at HKUST, advised by Prof. Dan Xu. Spatial intelligence, vision-language models, 3D Gaussian splatting, and world models.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
@@ -64,6 +64,13 @@
       margin-left: 4px;
       height: 18px;
     }
+    .experience-list { list-style: none; padding: 0; margin: 16px 0 0; }
+    .experience-list > li + li { margin-top: 22px; }
+    .experience-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; }
+    .experience-date { color: #666; white-space: nowrap; }
+    .experience-role { margin: 5px 0 8px; color: #555; }
+    .experience-details { padding-left: 20px; margin: 0; line-height: 1.55; }
+    .experience-details li + li { margin-top: 5px; }
   </style>
 </head>
 <body>
@@ -77,15 +84,15 @@
                 <name>Yuanyuan Gao | 高源远</name>
               </p>
               <p>
-                I am a Master's student in the School of Automation at <a href="https://www.nwpu.edu.cn/">Northwestern Polytechnical University (NWPU)</a>, affiliated with <a href="https://vision-intelligence.com.cn/pages/people.html"><b>BRAIN Lab</b></a>, advised by <a href="https://vision-intelligence.com.cn/pages/people.html">Prof. Dingwen Zhang</a> and Prof. Junwei Han. I had the honor of working with <a href="https://zzh-tech.github.io/">Zhihang Zhong</a> and <a href="https://jimmysuen.github.io/">Xiao Sun</a>, who provided invaluable guidance and support. I will join the Department of Computer Science and Engineering at <a href="https://hkust.edu.hk/">HKUST</a> as a Ph.D. student in Fall 2026, advised by <a href="https://www.danxurgb.net/">Prof. Dan Xu</a>.
+                I am a Ph.D. student in the Department of Computer Science and Engineering at <a href="https://hkust.edu.hk/">The Hong Kong University of Science and Technology (HKUST)</a>, advised by <a href="https://www.danxurgb.net/">Prof. Dan Xu</a>. I received my bachelor's and master's degrees from the School of Automation at <a href="https://www.nwpu.edu.cn/">Northwestern Polytechnical University (NWPU)</a>, where I was a member of <a href="https://vision-intelligence.com.cn/pages/people.html"><b>BRAIN Lab</b></a>, advised by <a href="https://vision-intelligence.com.cn/pages/people.html">Prof. Dingwen Zhang</a> and Prof. Junwei Han. I have also had the pleasure of working with <a href="https://zzh-tech.github.io/">Zhihang Zhong</a> and <a href="https://jimmysuen.github.io/">Xiao Sun</a>.
               </p>
               <p>
-                My research interests lie in <b>Vlm</b>, <b>Spatial Intelligence</b>, <b>3D Gaussian splatting</b>.
+                My research aims to build <b>scalable, cost-effective 3D/4D data pipelines</b> for creating large-scale, realistic simulation environments. By bridging the real-to-sim gap, I seek to advance <b>embodied intelligence</b> and <b>spatial understanding in vision-language models (VLMs)</b>.
               </p>
               <p style="text-align:center">
                 <a href="mailto:yygao7645@gmail.com">Email</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=1zDq0q8AAAAJ&amp;hl=en">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="https://github.com/gyy456">Github</a>
+                <a href="https://github.com/gyy456">GitHub</a>
               </p>
             </td>
             <td style="padding:3%;width:40%;max-width:40%;vertical-align:middle;text-align:center">
@@ -222,8 +229,8 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Education</heading>
               <ul>
-                <li><b>Ph.D. in Computer Science and Engineering</b>, HKUST, expected from Sep 2026. Advisor: Prof. Dan Xu.</li>
-                <li><b>M.Eng. in Control Science and Engineering</b>, NWPU, Aug 2023 – Jun 2026. BRAIN Lab; advisors: Prof. Dingwen Zhang, Prof. Junwei Han.</li>
+                <li><b>Ph.D. student in Computer Science and Engineering</b>, HKUST, Sep 2026 – Present. Advisor: Prof. Dan Xu.</li>
+                <li><b>M.Eng. in Control Science and Engineering</b>, NWPU, Aug 2023 – Mar 2026. BRAIN Lab; advisors: Prof. Dingwen Zhang, Prof. Junwei Han.</li>
                 <li><b>B.Eng. in Automation</b>, NWPU, Aug 2019 – Jun 2023.</li>
               </ul>
             </td>
@@ -233,10 +240,33 @@
         <table style="width:100%;border:0;border-spacing:0;border-collapse:separate;margin:0 auto;"><tbody>
           <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Experience</heading>
-              <ul>
-                <li><b>Shanghai AI Laboratory</b> — large-scale reconstruction &amp; 3D-MLLM (Mar 2025 – March 2026). Led CityGS-X parallel stack; WAIC 2025 city demo; Holi-Spatial benchmark and multimodal annotation pipeline.</li>
-                <li><b>Xiaomi Robotics</b> — indoor 3D Gaussian reconstruction (Dec 2024 – Feb 2025). StableNormal priors, mesh quality for robotics scenes.</li>
+              <heading>Research Internships</heading>
+              <ul class="experience-list">
+                <li>
+                  <div class="experience-header"><strong>Tencent · Qingyun Talent Program (青云人才计划)</strong><span class="experience-date">May 2026 – Aug 2026</span></div>
+                  <p class="experience-role">Hand Motion Reconstruction &amp; Data Pipelines</p>
+                  <ul class="experience-details">
+                    <li>Worked on hand motion reconstruction for Video2Motion, focusing on high-fidelity motion representations, temporal consistency, and data usability.</li>
+                    <li>Built a hand motion data pipeline for automatic mining, motion filtering, temporal quality checks, and standardized curation of large-scale human motion data. This work laid the foundation for a scalable 4D motion data pipeline, supporting Video2Motion reconstruction and providing training data for embodied AI.</li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="experience-header"><strong>Shanghai AI Laboratory</strong><span class="experience-date">Mar 2025 – Apr 2026</span></div>
+                  <p class="experience-role">3D Spatial Intelligence &amp; 3D Multimodal Large Language Models</p>
+                  <ul class="experience-details">
+                    <li>Led the development of CityGS-X's parallel architecture for efficient, scalable, and geometrically accurate city-scale reconstruction.</li>
+                    <li>Proposed Proxy-GS, introducing occlusion priors to accelerate structured 3D Gaussian splatting rendering; accepted to CVPR 2026 as an Oral and Award Candidate.</li>
+                    <li>Led Holi-Spatial's 4D data and benchmark construction, integrating automated 3D multimodal annotation, quality control, and evaluation to support spatial understanding in VLMs and VLAs; accepted to ICML 2026 as an Oral.</li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="experience-header"><strong>Xiaomi Robotics</strong><span class="experience-date">Dec 2024 – Feb 2025</span></div>
+                  <p class="experience-role">Indoor 3D Gaussian Reconstruction</p>
+                  <ul class="experience-details">
+                    <li>Integrated StableNormal geometric priors into 3D Gaussian reconstruction to improve multiview consistency and mesh quality under challenging lighting and material variations.</li>
+                    <li>Developed robust indoor geometry and surface reconstruction to support spatial modeling and semantic alignment for robot navigation and manipulation.</li>
+                  </ul>
+                </li>
               </ul>
             </td>
           </tr>
@@ -260,7 +290,7 @@
           <tr>
             <td style="padding:0 20px 30px;width:100%;vertical-align:middle;text-align:center">
               <p style="font-size:12px;color:#666;">
-                © Yuanyuan Gao | Last updated: May, 2026<br>
+                © Yuanyuan Gao | Last updated: October 2026<br>
                 <a href="https://jonbarron.info/">Website template</a> style (Lato, layout) inspired by academic project pages.
               </p>
             </td>
